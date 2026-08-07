@@ -1,0 +1,6 @@
+print("Devesh Singh")
+print("zero2march@gmial.com")
+print("College - IEC College of Engineering and Technology")
+print("Welcome to MY profile")
+print("****\nWelcome\n****")
+print("****\vWelcome\t****")
