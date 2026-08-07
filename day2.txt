@@ -1,0 +1,32 @@
+Variable is a name that stores a value.
+it is also known as labled box where u keep information that your program can use letter.
+Rules for naming variables -->
+1) Variable must starts with letter or underscore.
+2) There is no space btween variable.
+3) Variableariables do not use special characters.
+4) variableariable must be case sensitive.
+5) We cannot use variables.
+
+
+IDETIFIERS-->
+
+ * it is a name given to variables, functions, class, modules.
+ * it is used to identify and access object in the programm.
+
+KEYWORDS-->
+
+* it is a predefined function or presrved word that have pre defiubned meaning puython uses them to define the      syntax and structure of languiage.
+* we cannot use keyword as identifier or variable.
+
+DATATYPES-->
+
+* they are type defines what kind of value a variable stores and what type of operation can be perform on that value.
+*  it is a classification of data that tells python what type of value is stored in the variable
+*b it automatically detects the dat type when u asign a value to the variable.
+* DATATYPES-> int, float, string, boolen
+
+typecasting is the converting one data type to another data type.
+* it is the process of changing from-->
+1) string to integer.
+2) integer to sloat.
+3) float to string.
