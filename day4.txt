@@ -1,0 +1,7 @@
+INPUT--> it means the information provided to a program , it takes information from the user the n process that informarion --> then displauy the result.
+
+OUTPUT--> the information produce or displayed by the program 
+
+SEP PARAMETER--> it can control how multiple values are seprated
+
+AND PARAMETER-> it uses to adding something in last-->string , integer , float

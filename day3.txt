@@ -1,0 +1,16 @@
+OPERATORS--> 
+on one or more variables.
+
+OPERANDS-->the values on which an operator works are called OPERANDS.
+
+EXPRESSION-->an EXPRESSIONis a combination of values , variables and operators that python can evaluate to produce a result.
+
+-->TYPES OF OPERATORS IN PYTHON<--
+1) ARITHMATIC OPERATORS --> these are used for mathematrical calculations--additiopn, subtraction,modulus,          multiplication, float divisions, modulus exponent
+2) RELATIONAL/ --> these operators compare two values..and give true/false as result.
+3)LOGICAL OPERATORS --> these are used when we have multiple conditions python has three logical operators--
+1)AND = it returns true only when both conditionsare true...
+2)OR = it returns true when at least one contion is true..
+3)NOT = it reverses the boolen value...
+4)ASSIGNMENT OPERATORS--> these are used to assign or update values in variables. --- = += -= *= /= //=
+5) MEMBERSHIOP OPERATORS
