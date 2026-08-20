@@ -1,0 +1,4 @@
+if - the executes when the condition is true.
+else - executres when the contion is false. 
+elif - executes when the contion is true and if there is multiple conditions.
+
