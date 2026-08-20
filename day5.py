@@ -1,22 +1,22 @@
-#num = 35
-#if num >49:
-#    print("PASS")
+num = 35
+if num >49:
+    print("PASS")
+    
+Num2=int(input("Enter the number = "))
+if Num2 < 20:
+    print("WOW! u guess the number less than 20.")
+elif Num2 > 20:
+    print("WOW! u guess the number greater than 20.")
 
-#Num2=int(input("Enter the number = "))
-#if Num2 < 20:
-#    print("WOW! u guess the number less than 20.")
-#elif Num2 > 20:
-#    print("WOW! u guess the number greater than 20.")
-#
-#Age = int(input("Enter your age :"))
-#if Age > 18:
-#    print("Congractulations🎉! You are eligible for this post.")
-#elif Age == 18:
-#    print(" Wait for the completion of your AGE.")
-#else:
-#    print("ooops🫠! Soory, u are not eligible for this post.")
-#
-#
+Age = int(input("Enter your age :"))
+if Age > 18:
+    print("Congractulations🎉! You are eligible for this post.")
+elif Age == 18:
+    print(" Wait for the completion of your AGE.")
+else:
+    print("ooops🫠! Soory, u are not eligible for this post.")
+
+
 Num1=int(input("Enter Num1:"))
 Num2=int(input("Enter Num2:"))
 Num3=int(input("Enter Num3:"))
