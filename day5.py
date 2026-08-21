@@ -17,12 +17,15 @@ else:
     print("ooops🫠! Soory, u are not eligible for this post.")
 
 
-Num1=int(input("Enter Num1:"))
-Num2=int(input("Enter Num2:"))
-Num3=int(input("Enter Num3:"))
-if Num1 > (Num2 and Num3):
-    print("Num1 is greater than All.")
-if Num2 > (Num1 and Num3):
-    print("Num2 is greater than All.")
-if Num3 > (Num2 and Num1):
-    print("Num3 is greater than All.")
+Num1 = int(input("Enter Num1: "))
+Num2 = int(input("Enter Num2: "))
+Num3 = int(input("Enter Num3: "))
+
+if Num1 > Num2 and Num1 > Num3:
+    print("Num1 is greater than all.")
+
+if Num2 > Num1 and Num2 > Num3:
+    print("Num2 is greater than all.")
+
+if Num3 > Num1 and Num3 > Num2:
+    print("Num3 is greater than all.")
