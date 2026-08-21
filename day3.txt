@@ -5,12 +5,105 @@ OPERANDS-->the values on which an operator works are called OPERANDS.
 
 EXPRESSION-->an EXPRESSIONis a combination of values , variables and operators that python can evaluate to produce a result.
 
--->TYPES OF OPERATORS IN PYTHON<--
-1) ARITHMATIC OPERATORS --> these are used for mathematrical calculations--additiopn, subtraction,modulus,          multiplication, float divisions, modulus exponent
-2) RELATIONAL/ --> these operators compare two values..and give true/false as result.
-3)LOGICAL OPERATORS --> these are used when we have multiple conditions python has three logical operators--
-1)AND = it returns true only when both conditionsare true...
-2)OR = it returns true when at least one contion is true..
-3)NOT = it reverses the boolen value...
-4)ASSIGNMENT OPERATORS--> these are used to assign or update values in variables. --- = += -= *= /= //=
-5) MEMBERSHIOP OPERATORS
+→ TYPES OF OPERATORS IN PYTHON ←
+1) ARITHMETIC OPERATORS
+These operators are used for mathematical calculations such as addition, subtraction, multiplication, division, modulus, and exponentiation.
+Operators:
+
++   Addition
+-   Subtraction
+*   Multiplication
+/   Float Division
+//  Floor Division
+%   Modulus
+**  Exponentiation
+2) RELATIONAL / COMPARISON OPERATORS
+These operators are used to compare two values and return the result as True or False.
+Operators:
+
+>   Greater than
+<   Less than
+>=  Greater than or equal to
+<=  Less than or equal to
+==  Equal to
+!=  Not equal to
+3) LOGICAL OPERATORS
+These operators are used when we have multiple conditions.
+Python has three logical operators:
+
+1) AND (and)
+It returns True only when both conditions are True.
+
+2) OR (or)
+It returns True when at least one condition is True.
+
+3) NOT (not)
+It reverses the Boolean value.
+
+Example:
+
+a = 10
+b = 20
+
+print(a < b and b > 15)
+print(a > b or b > 15)
+print(not(a < b))
+4) ASSIGNMENT OPERATORS
+These operators are used to assign or update values in variables.
+Operators:
+
+=    Assignment
++=   Add and assign
+-=   Subtract and assign
+*=   Multiply and assign
+/=   Divide and assign
+//=  Floor divide and assign
+%=   Modulus and assign
+**=  Exponent and assign
+Example:
+num = 10
+
+num += 5
+print(num)     # 15
+5) MEMBERSHIP OPERATORS
+These operators are used to check whether a value is present or not present in a sequence such as a string, list, tuple, etc.
+Python has two membership operators:
+
+1) in → Returns True if the value is present.
+
+2) not in → Returns True if the value is not present.
+
+Example:
+
+name = "Devesh"
+
+print("D" in name)
+print("z" not in name)
+Output:
+True
+True
+6) IDENTITY OPERATORS
+These operators are used to check whether two variables refer to the same object in memory.
+Python has two identity operators:
+
+1) is → Returns True if both variables refer to the same object.
+
+2) is not → Returns True if they do not refer to the same object.
+
+Example:
+
+a = [1, 2, 3]
+b = a
+
+print(a is b)
+Output:
+True
+Quick Revision
+Type	Operators
+Arithmetic	+ - * / // % **
+Relational / Comparison	> < >= <= == !=
+Logical	and or not
+Assignment	= += -= *= /= //= %= **=
+Membership	in, not in
+Identity	is, is not
+Note: Python also has Bitwise operators (&, |, ^, ~, <<, >>), which you can add as another category if you're making complete operator notes.
