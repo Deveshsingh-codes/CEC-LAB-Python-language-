@@ -39,3 +39,19 @@
 #
 #else:
 #    print("FAIL.")
+
+Student_Name=str(input("Enter your Name :"))
+Student_marks=int(input("Enter the Marks :"))
+if Student_marks<0 or Student_marks>100:
+    print("Invalid Marks")
+elif Student_marks >= 90 and Student_marks <= 100:
+    print("Excellent.")
+
+elif Student_marks >= 75 and Student_marks < 90:
+    print("PASS.")
+
+elif Student_marks >= 40 and Student_marks < 75:
+    print("Needs to improve.")
+
+else:
+    print("FAIL.")
