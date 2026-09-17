@@ -1,0 +1,15 @@
+String Formating- It is the Process of Inserting varibles or expretions into a string in a controlled and readable way.
+
+Method Of String Formating:-
+
+1) String Concatenation - Concatenation = joining two or more strings together.
+
+2) Str.formate() 
+
+formate     Meaning
+
+%s          String
+%d          Integer
+%f          Floating-point
+%x          Hexadecimal
+%%          Percentage symbol
